@@ -1,0 +1,54 @@
+{{!-- <div class="form__service-item-row num{{index}}">
+  <div class="model-item">
+    <label class="form__label2">
+      <input class="form__input-field model" type="text" name="model{{index}}" />
+    </label>
+
+    <label class="form__label2">
+      <input class="form__input-field serial" type="text" name="stickerSerialNumber{{index}}" />
+    </label>
+
+    <label class="form__label2">
+      <input class="form__input-field madeWorks" type="text" name="madeServise{{index}}" />
+    </label>
+
+    <label class="form__label2">
+      <input class="form__input-field complectation" type="text" name="complectation{{index}}" />
+    </label>
+
+    <label class="form__label2">
+      <input class="form__input-field price" type="text" name="price{{index}}" />
+    </label>
+  </div>
+</div> --}}
+
+              <div class="form__service-item-row num{{index}}">
+                <div class="form__service-item">
+
+                  <div class="form__service-item-model">
+                     <select class="form__service-item-model-js num{{index}}" name="model{{index}}">
+                     </select>
+                  </div>
+
+                  <div class="form__service-item-serial">
+                      <input placeholder="Серійний номер" class="form__service-item-serial-input" type="number" name="serial{{index}}" />
+                  </div>
+
+                  <div class="form__service-item-service">
+                      <select class="form__service-item-service-js num{{index}}" name="service{{index}}">
+                      </select>
+                  </div>
+
+                  <div class="form__service-item-complectation">
+                      <select class="form__service-item-complectation-js num{{index}}" name="complectation{{index}}">
+                      </select>
+                  </div>
+
+                  <div class="form__service-item-price">
+                      <input placeholder="Ціна" class="form__service-item-price-input" type="number" name="price{{index}}" />
+                  </div>
+
+                </div>
+                <img class="form__delete-service num{{index}}" src="../images/delete.svg" width="18px" height="18px" />
+
+              </div>

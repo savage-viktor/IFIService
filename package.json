@@ -18,7 +18,10 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "handlebars": "^4.7.7",
+    "json-server": "^0.17.0",
+    "modern-normalize": "^1.1.0",
+    "nativejs-select": "^1.0.7"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",

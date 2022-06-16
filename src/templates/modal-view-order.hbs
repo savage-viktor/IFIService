@@ -1,0 +1,119 @@
+  {{!-- <!-- Модальне вікно перегляду замовлення -->
+    <div class="backdrop backdrop--is-hidden" data-modal>
+      <div class="modal-window">
+        <button type="button" class="modal-window__close" data-modal-close>
+          <svg width="11px" height="11px" class="modal-window__icon">
+            <use href="./images/icons_sprite.svg#icon-close"></use>
+          </svg>
+        </button> --}}
+        <!-- Форма -->
+        <form class="form create-order">
+          <p class="form__header">Заявка на сервісні послуги</p>
+
+          <div class="form__top-box">
+            <label class="form__label">
+              Місто
+              <div class="form__input-box">
+                <input class="form__input-field" type="text" name="city" value="{{city}}" />
+              </div>
+            </label>
+            <label class="form__label">
+              Клієнт
+              <div class="form__input-box">
+                <input
+                  class="form__input-field"
+                  type="text"
+                  name="client"
+                  value="{{client}}"
+                />
+              </div>
+            </label>
+            <label class="form__label">
+              ТТН вхідна
+              <div class="form__input-box">
+                <input
+                  class="form__input-field"
+                  type="number"
+                  name="postEntryNumber"
+                  value="{{postEntry.number}}"
+                />
+              </div>
+            </label>
+            <label class="form__label">
+              Дата
+              <div class="form__input-box">
+                <input class="form__input-field" type="date" name="postEntryDate" value="{{postEntry.date}}" />
+              </div>
+            </label>
+            <label class="form__label">
+              Вартість доставки
+              <div class="form__input-box">
+                <input class="form__input-field" type="number" name="postEntryCost" value="" />
+              </div>
+            </label>
+            <label class="form__label">
+              Комент
+              <div class="form__input-box">
+                <input class="form__input-field" type="text" name="postEntryComent" value="" />
+              </div>
+            </label>
+          </div>
+
+          <div class="form__middle-box"></div>
+
+          <div class="form__bottom-box">
+            <label class="form__label">
+              ТТН Вихідна
+              <input class="form__input-field" type="number" name="postSendNumber" value="" />
+            </label>
+            <label class="form__label">
+              Дата
+              <input class="form__input-field" type="date" name="postSendDate" value="" />
+            </label>
+            <label class="form__label">
+              Комент
+              <input class="form__input-field" type="text" name="postSendComment" value="" />
+            </label>
+
+            <label class="form__conditions">
+              <input class="form__checkbox" type="checkbox" name="payment" value="payment" />
+              <svg class="form__checkbox-icon" width="16px" height="15px">
+                <use href="./images/icons_sprite.svg#icon-chekbox"></use>
+              </svg>
+              <span class="form__checkbox-agree">Оплата</span>
+            </label>
+
+            <label class="form__label">
+              Сума
+              <input
+                class="form__input-field payment"
+                type="number"
+                name="paymentDetailsAmount"
+                value=""
+              />
+            </label>
+            <label class="form__label">
+              Дата
+              <input
+                class="form__input-field payment"
+                type="date"
+                name="paymentDetailsDate"
+                value=""
+              />
+            </label>
+            <label class="form__label">
+              Тип оплати
+              <input
+                class="form__input-field payment"
+                type="text"
+                name="paymentDetailsType"
+                value=""
+              />
+            </label>
+          </div>
+
+          <button class="submit-button" type="submit">Зберегти</button>
+        </form>
+        <!-- Форма -->
+      {{!-- </div>
+    </div> --}}
