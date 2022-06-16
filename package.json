@@ -5,7 +5,9 @@
   "homepage": "https://savage-viktor.github.io/IFIService",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /IFIService/"
+    "build": "parcel build src/*.html --public-url /IFIService/",
+        "server": "json-server --watch db.json -p 3000"
+
   },
   "repository": {
     "type": "git",
