@@ -1,0 +1,45 @@
+{
+  "name": "parcel-project-template",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://savage-viktor.github.io/goit-js-hw-11",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11/",
+    "server": "json-server --watch db.json -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "@elliemae/ds-form-combobox": "^3.2.0",
+    "@mdjs/mdjs-preview": "^0.5.7",
+    "@trevoreyre/autocomplete-js": "^2.2.0",
+    "combobox": "^1.0.1",
+    "custom-select": "^1.1.15",
+    "fetch": "^1.1.0",
+    "flatpickr": "^4.6.13",
+    "handlebars": "^4.7.7",
+    "json-server": "^0.17.0",
+    "lodash.debounce": "^4.0.8",
+    "lodash.throttle": "^4.1.1",
+    "nativejs-select": "^1.0.7",
+    "notiflix": "^3.2.5",
+    "search-suggestion": "^1.0.3"
+  }
+}

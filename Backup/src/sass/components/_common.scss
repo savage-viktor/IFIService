@@ -1,0 +1,101 @@
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0;
+  /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  /* Firefox */
+}
+
+
+body {
+  background-color: var(--color-white);
+
+  color: var(--color-primary-text);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding-inline-start: 0;
+}
+
+img {
+  display: block;
+}
+
+// aproved
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.section-title {
+  margin-bottom: 30px;
+
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+}
+
+.orders-list {
+  // display: flex;
+}
+
+.column-list-item {
+text-align: center;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: solid 2px;
+ border-color: rgb(63, 127, 223);
+ border-radius: 2px;
+}
+
+.orders-list-item {
+  display: flex;
+}

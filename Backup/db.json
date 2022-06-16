@@ -1,0 +1,1275 @@
+{
+  "orders": [
+    {
+      "city": "Прилуки",
+      "client": "Пилипенко",
+      "postEntry": {
+        "number": "",
+        "cost": "",
+        "date": "2022-06-01",
+        "comment": ""
+      },
+      "serviceItems": [
+        {
+          "model": "Novatel",
+          "stickerSerialNumber": "9898989",
+          "insideSerialNumber": "",
+          "complectation": "АКБ",
+          "madeServise": "Прошивка",
+          "price": "100",
+          "comment": ""
+        },
+        {
+          "model": "Netgear",
+          "stickerSerialNumber": "77777",
+          "insideSerialNumber": "",
+          "complectation": "кришка",
+          "madeServise": "Розлочка",
+          "price": "300",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": 0,
+          "insideSerialNumber": "",
+          "complectation": [],
+          "madeServise": [],
+          "price": 0,
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": 0,
+          "insideSerialNumber": "",
+          "complectation": [],
+          "madeServise": [],
+          "price": 0,
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 45
+    },
+    {
+      "city": "Irpin",
+      "client": "Дикун Віктор",
+      "postEntry": {
+        "number": "",
+        "cost": "",
+        "date": "2022-05-30",
+        "comment": ""
+      },
+      "serviceItems": [
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 46
+    },
+    {
+      "city": "Корогод",
+      "client": "Поліщук",
+      "postEntry": {
+        "number": "",
+        "cost": "",
+        "date": "2022-06-05",
+        "comment": ""
+      },
+      "serviceItems": [
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 47
+    },
+    {
+      "city": "Київ",
+      "client": "Шеремет",
+      "postEntry": {
+        "number": "999999",
+        "cost": "15",
+        "date": "2022-06-04",
+        "comment": "Тест"
+      },
+      "serviceItems": [
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 48
+    },
+    {
+      "city": "Sosnivka",
+      "client": "Поліщук",
+      "postEntry": {
+        "number": "",
+        "cost": "",
+        "date": "2022-05-30",
+        "comment": ""
+      },
+      "serviceItems": [
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 49
+    },
+    {
+      "city": "Sosnivka",
+      "client": "",
+      "postEntry": {
+        "number": "",
+        "cost": "",
+        "date": "",
+        "comment": ""
+      },
+      "serviceItems": [
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 50
+    },
+    {
+      "city": "222",
+      "client": "333",
+      "postEntry": {
+        "number": "",
+        "cost": "",
+        "date": "",
+        "comment": ""
+      },
+      "serviceItems": [
+        {
+          "model": "Novatel",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "Netgear",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 51
+    },
+    {
+      "city": "Sosnivka",
+      "client": "",
+      "postEntry": {
+        "number": "",
+        "cost": "",
+        "date": "",
+        "comment": ""
+      },
+      "serviceItems": [
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 52
+    },
+    {
+      "city": "Sosnivka",
+      "client": "",
+      "postEntry": {
+        "number": "",
+        "cost": "",
+        "date": "",
+        "comment": ""
+      },
+      "serviceItems": [
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 53
+    },
+    {
+      "city": "Sosnivka",
+      "client": "222",
+      "postEntry": {
+        "number": "333333",
+        "cost": "444",
+        "date": "2022-06-01",
+        "comment": "55555"
+      },
+      "serviceItems": [
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 54
+    },
+    {
+      "city": "Sosnivka",
+      "client": "234324",
+      "postEntry": {
+        "number": "234234",
+        "cost": "",
+        "date": "2022-06-17",
+        "comment": ""
+      },
+      "serviceItems": [
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": 0,
+          "insideSerialNumber": "",
+          "complectation": [],
+          "madeServise": [],
+          "price": 0,
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": 0,
+          "insideSerialNumber": "",
+          "complectation": [],
+          "madeServise": [],
+          "price": 0,
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": 0,
+          "insideSerialNumber": "",
+          "complectation": [],
+          "madeServise": [],
+          "price": 0,
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 55
+    },
+    {
+      "city": "Sosnivka",
+      "client": "",
+      "postEntry": {
+        "number": "1233245",
+        "cost": "1231324",
+        "date": "",
+        "comment": ""
+      },
+      "serviceItems": [
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 56
+    },
+    {
+      "city": "123",
+      "client": "",
+      "postEntry": {
+        "number": "",
+        "cost": "",
+        "date": "",
+        "comment": ""
+      },
+      "serviceItems": [
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 57
+    },
+    {
+      "city": "Irpin",
+      "client": "Поліщук",
+      "postEntry": {
+        "number": "",
+        "cost": "",
+        "date": "2022-06-09",
+        "comment": ""
+      },
+      "serviceItems": [
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 58
+    },
+    {
+      "city": "Ірпінь",
+      "client": "Дикун Віктор",
+      "postEntry": {
+        "number": "89898989",
+        "cost": "",
+        "date": "2022-06-16",
+        "comment": ""
+      },
+      "serviceItems": [
+        {
+          "model": "Novatel",
+          "stickerSerialNumber": "9898989",
+          "insideSerialNumber": "",
+          "complectation": "АКБ",
+          "madeServise": "Прошивка",
+          "price": "100",
+          "comment": ""
+        },
+        {
+          "model": "Netgear",
+          "stickerSerialNumber": "77777",
+          "insideSerialNumber": "",
+          "complectation": "кришка",
+          "madeServise": "Розлочка",
+          "price": "300",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": 0,
+          "insideSerialNumber": "",
+          "complectation": [],
+          "madeServise": [],
+          "price": 0,
+          "comment": ""
+        },
+        {
+          "model": "",
+          "stickerSerialNumber": 0,
+          "insideSerialNumber": "",
+          "complectation": [],
+          "madeServise": [],
+          "price": 0,
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 59
+    },
+    {
+      "city": "",
+      "client": "",
+      "postEntry": {
+        "number": "",
+        "cost": "",
+        "date": "",
+        "comment": ""
+      },
+      "serviceItems": [
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 60
+    },
+    {
+      "city": "",
+      "client": "",
+      "postEntry": {
+        "number": "",
+        "cost": "",
+        "date": "",
+        "comment": ""
+      },
+      "serviceItems": [
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 61
+    },
+    {
+      "city": "Irpin",
+      "client": "",
+      "postEntry": {
+        "number": "",
+        "cost": "",
+        "date": "",
+        "comment": ""
+      },
+      "serviceItems": [
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 62
+    },
+    {
+      "city": "",
+      "client": "",
+      "postEntry": {
+        "number": "",
+        "cost": "",
+        "date": "",
+        "comment": ""
+      },
+      "serviceItems": [
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 63
+    },
+    {
+      "city": "",
+      "client": "",
+      "postEntry": {
+        "number": "",
+        "cost": "",
+        "date": "",
+        "comment": ""
+      },
+      "serviceItems": [
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 64
+    },
+    {
+      "city": "",
+      "client": "",
+      "postEntry": {
+        "number": "",
+        "cost": "",
+        "date": "",
+        "comment": ""
+      },
+      "serviceItems": [
+        {
+          "model": "",
+          "stickerSerialNumber": "",
+          "insideSerialNumber": "",
+          "complectation": "",
+          "madeServise": "",
+          "price": "",
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 65
+    },
+    {
+      "city": "Irpin",
+      "client": "Дикун Віктор",
+      "postEntry": {
+        "number": "",
+        "cost": "",
+        "date": "2022-06-01",
+        "comment": ""
+      },
+      "serviceItems": [],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 66
+    },
+    {
+      "city": "Соснівка",
+      "client": "Пилипенко",
+      "postEntry": {
+        "number": "",
+        "cost": "",
+        "date": "2022-06-05",
+        "comment": ""
+      },
+      "serviceItems": [],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 67
+    },
+    {
+      "city": "Прилуки",
+      "client": "Поліщук",
+      "postEntry": {
+        "number": "",
+        "cost": "",
+        "date": "",
+        "comment": ""
+      },
+      "serviceItems": [],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 68
+    },
+    {
+      "city": "Корогод",
+      "client": "Поліщук Наталія",
+      "postEntry": {
+        "number": "9900031511649",
+        "cost": "60",
+        "date": "2022-06-10",
+        "comment": ""
+      },
+      "serviceItems": [
+        {
+          "model": "Телефон Samsung",
+          "stickerSerialNumber": "3500056451684",
+          "insideSerialNumber": "",
+          "complectation": "Батарея + кришка",
+          "madeServise": "Ремонт динаміка",
+          "price": "200",
+          "comment": ""
+        }
+      ],
+      "postSend": {
+        "number": 0,
+        "date": "",
+        "comment": ""
+      },
+      "payment": false,
+      "paymentDetails": [
+        {
+          "date": "",
+          "amount": 0,
+          "typeOfPayment": ""
+        }
+      ],
+      "id": 69
+    }
+  ],
+    "cities": [
+    "Київ",
+    "Вінниця",
+    "Хмельницький",
+    "Одеса",
+    "Обухів",
+    "Львів",
+    "Івано-Франківськ"
+  ],
+  "clients": [
+    "Дикун Віктор",
+    "Бред Кейдж",
+    "Хеллі Пилиперрі",
+    "Нараєвський Мирослав"
+  ],
+  "models": [
+    {
+      "name": "Novatel 6620",
+      "services": [
+        {
+          "type": "Ремонт картоприймача",
+          "price": 120
+        },
+        {
+          "type": "Прошивка",
+          "price": 230
+        },
+        {
+          "type": "Заміна антенного розєму",
+          "price": 340
+        }
+      ]
+    },
+    {
+      "name": "Huawei E5577-321",
+      "services": [
+        {
+          "type": "Налаштування",
+          "price": 140
+        }
+      ]
+    },
+    {
+      "name": "Netgear 771",
+      "services": [
+        {
+          "type": "Розлочка",
+          "price": 190
+        }
+      ]
+    }
+  ],
+  "complectation": [ 
+    "Батарейка",
+    "Зарядка",
+    "TeamViewer"
+   ]
+}

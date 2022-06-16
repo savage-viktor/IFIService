@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Заголовок</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./sass/main.scss" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    /> -->
+  </head>
+  <body>
+    <button class="submit-button" data-create-order>Створити заявку</button>
+    <button class="submit-button" data-view-models>Перегляд моделей</button>
+
+    <img class="sample-delete-icon" src="./images/delete.svg" width="18px" height="18px" />
+    <img class="sample-plus-icon" src="./images/plus.svg" width="18px" height="18px" />
+
+    <h1>Лист замовлень</h1>
+
+    <ul>
+      <li class="orders-list-item">
+        <span class="column-list-item">Номер замовлення</span>
+        <span class="column-list-item">Місто</span>
+        <span class="column-list-item">Клієнт</span>
+        <span class="column-list-item">Дата</span>
+        <span class="column-list-item">Кількість обладннання</span>
+        <span class="column-list-item">Оплата</span>
+      </li>
+    </ul>
+
+    <ul class="orders-list"></ul>
+
+    <!-- Модальне вікно -->
+    <div class="backdrop backdrop--is-hidden" data-modal>
+      <div class="modal-window">
+        <button type="button" class="modal-window__close" data-modal-close>
+          <svg width="11px" height="11px" class="modal-window__icon">
+            <use href="./images/icons_sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+        <div class="modal-content"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,250 @@
+.form {
+  text-align: center;
+}
+
+.form__header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  margin-bottom: 12px;
+}
+
+.form__top-box {
+  display: flex;
+flex-direction: row;
+margin-bottom: 20px;
+// height: 44px;
+}
+
+.form__middle-box {
+  width: 1120px;
+  display: flex;
+  flex-direction: column;
+        margin-bottom: 20px;
+}
+
+.form__middle-box .form__input-field {
+margin: 0;
+border: none;
+}
+
+.form__service-item {
+      display: flex;
+        flex-direction: row;
+    border-radius: 4px;
+      border: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+
+// .form__service-item-model {
+//   width: 140px;
+// }
+
+
+
+
+
+.form__bottom-box {
+    display: flex;
+      align-items: center;
+      flex-direction: row;
+      margin-bottom: 20px;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  // margin-bottom: 10px;
+  color: var(--color-secondary-text);
+}
+
+.form__input-box {
+  position: relative;
+  margin-top: 0px;
+}
+
+.form__input-field {
+  @extend %site-animation;
+
+  width: 150px;
+  outline: none;
+
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+
+  font-size: 16px;
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+
+  margin-right: 15px;
+
+  &.postEntryDate {
+   width: 120px
+  }
+  &.postEntryCost {
+    width: 110px
+  }
+
+}
+
+
+
+.form__service-item-serial-input {
+    @extend %site-animation;
+padding-left: 10px;
+    outline: none;
+    width: 150px;
+      height: 44px;
+      border-radius: 4px;
+      border: 1px solid rgba(33, 33, 33, 0.0);   
+}
+
+.form__service-item-price-input {
+    @extend %site-animation;
+      padding-left: 10px;
+      outline: none;
+      width: 110px;
+      height: 44px;
+      border-radius: 4px;
+      border: 1px solid rgba(33, 33, 33, 0.0);
+
+}
+
+.form__input-box:hover > .form__icon,
+.form__input-field:focus + .form__icon {
+  fill: var(--color-accent);
+}
+
+.form__service-item-price-input:hover,
+.form__service-item-price-input:focus,
+.form__service-item-serial-input:hover,
+.form__service-item-serial-input:focus {
+    border: 1px solid var(--color-accent);
+}
+
+.form__input-field:focus,
+.form__input-box:hover > .form__input-field {
+  border: 1px solid var(--color-accent);
+}
+
+.form__icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  @extend %site-animation;
+}
+
+.form__service-item-row {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.form__plus-service {
+  position: absolute;
+ right: 28px;
+ z-index: 5;
+background-color: white
+}
+
+.form__delete-service {
+  @extend %site-animation;
+  opacity: 0;
+
+  &:hover {
+opacity: 80;  }
+}
+
+
+
+.form__comment {
+  @extend %site-animation;
+
+  resize: none;
+  outline: none;
+
+  height: 120px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+
+  margin-top: 4px;
+  margin-bottom: 20px;
+  padding: 12px 16px;
+
+  &:focus,
+  &:hover {
+    border: 1px solid var(--color-accent);
+  }
+
+  &::placeholder {
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+  }
+}
+
+.form__conditions {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.71;
+  color: var(--color-secondary-text);
+
+  font-size: 14px;
+
+margin-right: 20px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+
+}
+
+.form__checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.form__checkbox:focus ~ .form__checkbox-icon {
+  outline: 2px solid var(--color-black);
+}
+
+.form__checkbox:checked ~ .form__checkbox-icon {
+  background-color: var(--color-accent);
+  border: var(--color-accent);
+  fill: var(--color-white);
+  box-sizing: content-box;
+}
+
+.form__checkbox-icon {
+  @extend %site-animation;
+
+  margin-right: 8px;
+  border: 2px solid var(--color-black);
+  border-radius: 2px;
+  background-color: var(--color-white);
+  fill: transparent;
+}
+
+.form__link-order {
+  text-decoration-line: underline;
+  color: var(--color-accent);
+}

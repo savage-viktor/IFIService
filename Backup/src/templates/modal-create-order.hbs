@@ -1,0 +1,99 @@
+
+        <form class="form create-order" id="form-create-order">
+          <p class="form__header">Створення заявки на сервісні послуги</p>
+
+          <div class="form__top-box">
+
+                  <div>
+                      <p class="form__label">Місто</p>
+                      <div class="form__city">
+                      <select class="form__city-js" name="city"></select>
+                    </div>
+                 </div>
+
+                  <div>
+                      <p class="form__label">Клієнт</p>
+                      <div class="form__client">
+                      <select class="form__client-js" name="client"></select>
+                    </div>
+                 </div>
+
+
+
+            {{!-- <label class="form__label">
+              Клієнт
+              <div class="form__input-box">
+                <input class="form__input-field" type="text" name="client" />
+              </div>
+            </label> --}}
+
+
+            <label class="form__label">
+              ТТН вхідна
+              <div class="form__input-box">
+                <input class="form__input-field" type="number" name="postEntryNumber" />
+              </div>
+            </label>
+            <label class="form__label">
+              Дата
+              <div class="form__input-box">
+                <input class="form__input-field postEntryDate" type="date" name="postEntryDate" />
+              </div>
+            </label>
+            <label class="form__label">
+              Вартість доставки
+              <div class="form__input-box">
+                <input class="form__input-field postEntryCost" type="number" name="postEntryCost" />
+              </div>
+            </label>
+            <label class="form__label">
+              Комент
+              <div class="form__input-box">
+                <input class="form__input-field" type="text" name="postEntryComent" />
+              </div>
+            </label>
+          </div>
+
+          <div class="form__middle-box">
+          </div>
+
+          <div class="form__bottom-box">
+            <label class="form__label">
+              ТТН Вихідна
+              <input class="form__input-field" type="number" name="postSendNumber" />
+            </label>
+            <label class="form__label">
+              Дата
+              <input class="form__input-field" type="date" name="postSendDate" />
+            </label>
+            <label class="form__label">
+              Комент
+              <input class="form__input-field" type="text" name="postSendComment" />
+            </label>
+
+            <label class="form__conditions">
+              <input class="form__checkbox" type="checkbox" name="payment" value="payment" />
+              <svg class="form__checkbox-icon" width="16px" height="15px">
+                <use href="./images/icons_sprite.svg#icon-chekbox"></use>
+              </svg>
+              <span class="form__checkbox-agree">Оплата</span>
+            </label>
+
+            <label class="form__label">
+              Сума
+              <input class="form__input-field payment" type="number" name="paymentDetailsAmount" />
+            </label>
+            <label class="form__label">
+              Дата
+              <input class="form__input-field payment" type="date" name="paymentDetailsDate" />
+            </label>
+            <label class="form__label">
+              Тип оплати
+              <input class="form__input-field payment" type="text" name="paymentDetailsType" />
+            </label>
+          </div>
+
+
+
+          <button class="submit-button" type="submit">Створити заявку</button>
+        </form>
